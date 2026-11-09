@@ -1,7 +1,7 @@
 from celery import Celery
 from kombu import Exchange, Queue
 
-# Masukkan URL CloudAMQP milikmu di bawah ini:
+# URL CloudAMQP :
 URL_CLOUDAMQP = "amqps://oyjvpmwz:Q2udjNd7K2YQanoFjq7TWrCPqDb2_pgf@armadillo.rmq.cloudamqp.com/oyjvpmwz"
 
 app = Celery(
